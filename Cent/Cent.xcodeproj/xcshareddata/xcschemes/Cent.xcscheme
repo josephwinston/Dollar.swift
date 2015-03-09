@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0600"
+   LastUpgradeVersion = "0610"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,27 +14,27 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "92E0D03B19467C67002ACC3D"
-               BuildableName = "Dollar.framework"
-               BlueprintName = "Dollar"
-               ReferencedContainer = "container:Dollar.xcodeproj">
+               BlueprintIdentifier = "924F92DB195F8338003DBB60"
+               BuildableName = "Cent.framework"
+               BlueprintName = "Cent"
+               ReferencedContainer = "container:Cent.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "92E6688019F0B89600BB4FB8"
+               BuildableName = "CentTests.xctest"
+               BlueprintName = "CentTests"
+               ReferencedContainer = "container:Cent.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
-      <BuildActionEntry
-         buildForTesting = "YES"
-         buildForRunning = "YES"
-         buildForProfiling = "NO"
-         buildForArchiving = "NO"
-         buildForAnalyzing = "YES">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "92E6686E19F09C6400BB4FB8"
-            BuildableName = "DollarTests.xctest"
-            BlueprintName = "DollarTests"
-            ReferencedContainer = "container:Dollar.xcodeproj">
-         </BuildableReference>
-      </BuildActionEntry>
    </BuildAction>
    <TestAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "92E6686E19F09C6400BB4FB8"
-               BuildableName = "DollarTests.xctest"
-               BlueprintName = "DollarTests"
-               ReferencedContainer = "container:Dollar.xcodeproj">
+               BlueprintIdentifier = "92E6688019F0B89600BB4FB8"
+               BuildableName = "CentTests.xctest"
+               BlueprintName = "CentTests"
+               ReferencedContainer = "container:Cent.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "92E0D03B19467C67002ACC3D"
-            BuildableName = "Dollar.framework"
-            BlueprintName = "Dollar"
-            ReferencedContainer = "container:Dollar.xcodeproj">
+            BlueprintIdentifier = "924F92DB195F8338003DBB60"
+            BuildableName = "Cent.framework"
+            BlueprintName = "Cent"
+            ReferencedContainer = "container:Cent.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "92E0D03B19467C67002ACC3D"
-            BuildableName = "Dollar.framework"
-            BlueprintName = "Dollar"
-            ReferencedContainer = "container:Dollar.xcodeproj">
+            BlueprintIdentifier = "924F92DB195F8338003DBB60"
+            BuildableName = "Cent.framework"
+            BlueprintName = "Cent"
+            ReferencedContainer = "container:Cent.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -90,6 +90,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "924F92DB195F8338003DBB60"
+            BuildableName = "Cent.framework"
+            BlueprintName = "Cent"
+            ReferencedContainer = "container:Cent.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

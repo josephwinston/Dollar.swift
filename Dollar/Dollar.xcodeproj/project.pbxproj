@@ -7,24 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0419C8421948BEC600B947B3 /* CarExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0419C8411948BEC600B947B3 /* CarExample.swift */; };
+		924CB6291A0888910047D7CA /* DollarPerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924CB6281A0888910047D7CA /* DollarPerformanceTests.swift */; };
 		924E37D4197DFCDB000086A9 /* Dollar.swift in Resources */ = {isa = PBXBuildFile; fileRef = 92E0D05819467CA2002ACC3D /* Dollar.swift */; };
-		9282C606197DFE1E0095D85A /* Dollar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E0D05819467CA2002ACC3D /* Dollar.swift */; };
+		9252FCD21A0F26F6002E85A4 /* AutoCurry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9252FCD11A0F26F6002E85A4 /* AutoCurry.swift */; };
+		925CB1E11A3FDCA4004F1319 /* Dollar.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 92E0D03C19467C67002ACC3D /* Dollar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		92E0D04219467C67002ACC3D /* Dollar.h in Headers */ = {isa = PBXBuildFile; fileRef = 92E0D04119467C67002ACC3D /* Dollar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92E0D04819467C67002ACC3D /* Dollar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E0D03C19467C67002ACC3D /* Dollar.framework */; };
-		92E0D04F19467C67002ACC3D /* DollarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E0D04E19467C67002ACC3D /* DollarTests.swift */; };
 		92E0D05919467CA2002ACC3D /* Dollar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E0D05819467CA2002ACC3D /* Dollar.swift */; };
+		92E6687A19F09D2A00BB4FB8 /* CarExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0419C8411948BEC600B947B3 /* CarExample.swift */; };
+		92E6687B19F09D2A00BB4FB8 /* DollarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E0D04E19467C67002ACC3D /* DollarTests.swift */; };
+		92E6687C19F09D3000BB4FB8 /* Dollar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E0D03C19467C67002ACC3D /* Dollar.framework */; };
+		92F1389D1A0F28C000B72258 /* gen_auto_curry.rb in Resources */ = {isa = PBXBuildFile; fileRef = 92F1389C1A0F28C000B72258 /* gen_auto_curry.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		040987041948227200E3997C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 92E0D03319467C67002ACC3D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 92E0D03B19467C67002ACC3D;
-			remoteInfo = Dollar;
-		};
-		92E0D04919467C67002ACC3D /* PBXContainerItemProxy */ = {
+		92E6687819F09D2400BB4FB8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 92E0D03319467C67002ACC3D /* Project object */;
 			proxyType = 1;
@@ -33,15 +29,32 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		925CB1E01A3FDC89004F1319 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				925CB1E11A3FDCA4004F1319 /* Dollar.framework in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0419C8411948BEC600B947B3 /* CarExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarExample.swift; sourceTree = "<group>"; };
+		924CB6281A0888910047D7CA /* DollarPerformanceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DollarPerformanceTests.swift; sourceTree = "<group>"; };
+		9252FCD11A0F26F6002E85A4 /* AutoCurry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoCurry.swift; sourceTree = "<group>"; };
 		92E0D03C19467C67002ACC3D /* Dollar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dollar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E0D04019467C67002ACC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92E0D04119467C67002ACC3D /* Dollar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dollar.h; sourceTree = "<group>"; };
-		92E0D04719467C67002ACC3D /* DollarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DollarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E0D04D19467C67002ACC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92E0D04E19467C67002ACC3D /* DollarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollarTests.swift; sourceTree = "<group>"; };
 		92E0D05819467CA2002ACC3D /* Dollar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dollar.swift; sourceTree = "<group>"; };
+		92E6686F19F09C6400BB4FB8 /* DollarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DollarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F1389C1A0F28C000B72258 /* gen_auto_curry.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = gen_auto_curry.rb; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +65,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92E0D04419467C67002ACC3D /* Frameworks */ = {
+		92E6686C19F09C6400BB4FB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92E0D04819467C67002ACC3D /* Dollar.framework in Frameworks */,
+				92E6687C19F09D3000BB4FB8 /* Dollar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				92E0D03C19467C67002ACC3D /* Dollar.framework */,
-				92E0D04719467C67002ACC3D /* DollarTests.xctest */,
+				92E6686F19F09C6400BB4FB8 /* DollarTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +99,8 @@
 			children = (
 				92E0D04119467C67002ACC3D /* Dollar.h */,
 				92E0D05819467CA2002ACC3D /* Dollar.swift */,
+				9252FCD11A0F26F6002E85A4 /* AutoCurry.swift */,
+				92F138971A0F283400B72258 /* Pre Build Script */,
 				92E0D03F19467C67002ACC3D /* Supporting Files */,
 			);
 			path = Dollar;
@@ -103,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				0419C8411948BEC600B947B3 /* CarExample.swift */,
+				924CB6281A0888910047D7CA /* DollarPerformanceTests.swift */,
 				92E0D04E19467C67002ACC3D /* DollarTests.swift */,
 				92E0D04C19467C67002ACC3D /* Supporting Files */,
 			);
@@ -115,6 +131,14 @@
 				92E0D04D19467C67002ACC3D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92F138971A0F283400B72258 /* Pre Build Script */ = {
+			isa = PBXGroup;
+			children = (
+				92F1389C1A0F28C000B72258 /* gen_auto_curry.rb */,
+			);
+			name = "Pre Build Script";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +163,7 @@
 				92E0D03819467C67002ACC3D /* Frameworks */,
 				92E0D03919467C67002ACC3D /* Headers */,
 				92E0D03A19467C67002ACC3D /* Resources */,
+				9252FCC81A0F2464002E85A4 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -149,23 +174,23 @@
 			productReference = 92E0D03C19467C67002ACC3D /* Dollar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		92E0D04619467C67002ACC3D /* DollarTests */ = {
+		92E6686E19F09C6400BB4FB8 /* DollarTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92E0D05519467C67002ACC3D /* Build configuration list for PBXNativeTarget "DollarTests" */;
+			buildConfigurationList = 92E6687519F09C6400BB4FB8 /* Build configuration list for PBXNativeTarget "DollarTests" */;
 			buildPhases = (
-				92E0D04319467C67002ACC3D /* Sources */,
-				92E0D04419467C67002ACC3D /* Frameworks */,
-				92E0D04519467C67002ACC3D /* Resources */,
+				92E6686B19F09C6400BB4FB8 /* Sources */,
+				92E6686C19F09C6400BB4FB8 /* Frameworks */,
+				92E6686D19F09C6400BB4FB8 /* Resources */,
+				925CB1E01A3FDC89004F1319 /* Copy Files */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				92E0D04A19467C67002ACC3D /* PBXTargetDependency */,
-				040987051948227200E3997C /* PBXTargetDependency */,
+				92E6687919F09D2400BB4FB8 /* PBXTargetDependency */,
 			);
 			name = DollarTests;
 			productName = DollarTests;
-			productReference = 92E0D04719467C67002ACC3D /* DollarTests.xctest */;
+			productReference = 92E6686F19F09C6400BB4FB8 /* DollarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -180,9 +205,8 @@
 					92E0D03B19467C67002ACC3D = {
 						CreatedOnToolsVersion = 6.0;
 					};
-					92E0D04619467C67002ACC3D = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 92E0D03B19467C67002ACC3D;
+					92E6686E19F09C6400BB4FB8 = {
+						CreatedOnToolsVersion = 6.0.1;
 					};
 				};
 			};
@@ -199,7 +223,7 @@
 			projectRoot = "";
 			targets = (
 				92E0D03B19467C67002ACC3D /* Dollar */,
-				92E0D04619467C67002ACC3D /* DollarTests */,
+				92E6686E19F09C6400BB4FB8 /* DollarTests */,
 			);
 		};
 /* End PBXProject section */
@@ -210,10 +234,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				924E37D4197DFCDB000086A9 /* Dollar.swift in Resources */,
+				92F1389D1A0F28C000B72258 /* gen_auto_curry.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92E0D04519467C67002ACC3D /* Resources */ = {
+		92E6686D19F09C6400BB4FB8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -222,37 +247,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9252FCC81A0F2464002E85A4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(PROJECT_DIR)/Dollar/AutoCurry.swift",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "ruby ${PROJECT_DIR}/gen_auto_curry.rb\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92E0D03719467C67002ACC3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9252FCD21A0F26F6002E85A4 /* AutoCurry.swift in Sources */,
 				92E0D05919467CA2002ACC3D /* Dollar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92E0D04319467C67002ACC3D /* Sources */ = {
+		92E6686B19F09C6400BB4FB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9282C606197DFE1E0095D85A /* Dollar.swift in Sources */,
-				92E0D04F19467C67002ACC3D /* DollarTests.swift in Sources */,
-				0419C8421948BEC600B947B3 /* CarExample.swift in Sources */,
+				92E6687A19F09D2A00BB4FB8 /* CarExample.swift in Sources */,
+				924CB6291A0888910047D7CA /* DollarPerformanceTests.swift in Sources */,
+				92E6687B19F09D2A00BB4FB8 /* DollarTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		040987051948227200E3997C /* PBXTargetDependency */ = {
+		92E6687919F09D2400BB4FB8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 92E0D03B19467C67002ACC3D /* Dollar */;
-			targetProxy = 040987041948227200E3997C /* PBXContainerItemProxy */;
-		};
-		92E0D04A19467C67002ACC3D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 92E0D03B19467C67002ACC3D /* Dollar */;
-			targetProxy = 92E0D04919467C67002ACC3D /* PBXContainerItemProxy */;
+			targetProxy = 92E6687819F09D2400BB4FB8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -294,8 +332,10 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -332,7 +372,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				METAL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -342,6 +384,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -361,6 +405,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -375,12 +421,11 @@
 			};
 			name = Release;
 		};
-		92E0D05619467C67002ACC3D /* Debug */ = {
+		92E6687619F09C6400BB4FB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -388,24 +433,26 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = DollarTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				METAL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		92E0D05719467C67002ACC3D /* Release */ = {
+		92E6687719F09C6400BB4FB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = DollarTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				METAL_ENABLE_DEBUG_INFO = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -430,11 +477,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92E0D05519467C67002ACC3D /* Build configuration list for PBXNativeTarget "DollarTests" */ = {
+		92E6687519F09C6400BB4FB8 /* Build configuration list for PBXNativeTarget "DollarTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				92E0D05619467C67002ACC3D /* Debug */,
-				92E0D05719467C67002ACC3D /* Release */,
+				92E6687619F09C6400BB4FB8 /* Debug */,
+				92E6687719F09C6400BB4FB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

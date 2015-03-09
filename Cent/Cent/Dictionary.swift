@@ -9,15 +9,7 @@
 import Foundation
 import Dollar
 
-extension Dictionary {
-    
-    /// Checks whether Dictionary has no keys and hence is empty
-    ///
-    /// :return Whether dictionary is empty
-    func isEmpty () -> Bool {
-        return Array(self.keys).isEmpty
-    }
-
+internal extension Dictionary {
     /// Merges the dictionary with dictionaries passed. The latter dictionaries will override
     /// values of the keys that are already set
     ///
@@ -25,9 +17,8 @@ extension Dictionary {
     mutating func merge<K, V>(dictionaries: Dictionary<K, V>...) {
         for dict in dictionaries {
             for (key, value) in dict {
-                self.updateValue(value as ValueType, forKey: key as KeyType)
+                self.updateValue(value as Value, forKey: key as Key)
             }
         }
     }
-    
 }

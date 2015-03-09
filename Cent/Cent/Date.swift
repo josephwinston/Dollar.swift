@@ -16,15 +16,25 @@ extension NSDate {
     /// :param month
     /// :param day
     /// :return Date
-    class func from(#year: Int, month: Int, day: Int) -> NSDate {
+    public class func from(#year: Int, month: Int, day: Int) -> NSDate? {
         var c = NSDateComponents()
         c.year = year
         c.month = month
         c.day = day
         
-        var gregorian = NSCalendar(identifier:NSGregorianCalendar)
-        var date = gregorian.dateFromComponents(c)
-        return date
+        if let gregorian = NSCalendar(identifier:NSGregorianCalendar) {
+            return gregorian.dateFromComponents(c)
+        } else {
+            return .None
+        }
+    }
+
+    /// Returns a new Date given the unix timestamp
+    ///
+    /// :param unix timestamp
+    /// :return Date
+    public class func from(#unix: Double) -> NSDate {
+        return NSDate(timeIntervalSince1970: unix)
     }
 
     /// Parses the date based on the format and return a new Date
@@ -32,12 +42,21 @@ extension NSDate {
     /// :param dateStr String version of the date
     /// :param format By default it is year month day
     /// :return Date
-    class func parse(dateStr: String, format: String = "yyyy-MM-dd") -> NSDate {
+    public class func parse(dateStr: String, format: String = "yyyy-MM-dd") -> NSDate {
         var dateFmt = NSDateFormatter()
         dateFmt.timeZone = NSTimeZone.defaultTimeZone()
         dateFmt.dateFormat = format
-        return dateFmt.dateFromString(dateStr)
+        return dateFmt.dateFromString(dateStr)!
+    }
+    
+    /// Returns the unix timestamp of the date passed in or
+    /// the current unix timestamp
+    ///
+    /// :param date
+    /// :return Double
+    public class func unix(_ date: NSDate = NSDate()) -> Double {
+       return date.timeIntervalSince1970 as Double
     }
 }
 
-typealias Date = NSDate
+public typealias Date = NSDate
